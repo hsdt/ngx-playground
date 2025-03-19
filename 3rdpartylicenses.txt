@@ -38,6 +38,9 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 @hsdt/core
 
+@ng-select/ng-select
+MIT
+
 brace
 MIT
 Copyright 2013 Thorsten Lorenz. 
@@ -165,6 +168,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 ngx-ace-wrapper
+MIT
+
+ngx-autosize
 MIT
 
 ngx-dynamic-hooks
