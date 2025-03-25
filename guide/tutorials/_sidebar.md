@@ -1,0 +1,3 @@
+- **EMR Playground**
+  - [#1. Giới thiệu cơ bản](tutorials/quick-start.md)
+  - [#2. Cách tạo mẫu phiếu](tutorials/quick-start.md)
