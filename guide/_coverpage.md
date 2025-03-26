@@ -2,8 +2,8 @@
 
 <!-- # **Kites.JS** -->
 <div class="banner">
-<h1>e<span class="highlight small">-</span>EMR<span class="highlight"><span class="merge">.</span>AI</span></h1>
-<p class="description">Bệnh án AI & Mẫu phiếu động On-Chain</p>
+<h1>e<span class="highlight small">-</span>EMR<span class="highlight"><span class="merge">.</span>AI-NGX</span></h1>
+<p class="description">Bệnh án AI-NGX & Mẫu phiếu động On-Chain</p>
 </div>
 
 - 🚀 EMR Độc lập (standalone)
@@ -14,7 +14,7 @@
 - ⏱ Tích hợp AI, LLM và Blockchain.
 
 <div class="buttons">
-  <a href="https://hosodientu.com" target="_blank"><span>Website</span></a>
+  <a href="https://hsdt.github.io/ngx-playground"><span>EMR Ngx Playground</span></a>
   <a href="#/README"><span>Hướng Dẫn</span></a>
 </div>
 
