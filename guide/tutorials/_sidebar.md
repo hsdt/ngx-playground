@@ -1,2 +1,3 @@
-- **Overview**
-  - [Giới thiệu cơ bản](tutorials/quick-start.md)
+- **Thực hành**
+  - [Level 1 - Tạo mẫu phiếu Bìa bệnh án](tutorials/level-1.md)
+  <!-- - [Level 2 - Tạo mẫu phiếu Bìa bệnh án](tutorials/level-1.md) -->

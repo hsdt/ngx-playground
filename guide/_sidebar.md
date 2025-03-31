@@ -2,7 +2,9 @@
 
   - [Trang chủ](README.md)
   - [Giới thiệu](overview/Introduction.md)
-  - [Quick Start](tutorials/quick-start.md)
+
+- **:coffee: Thực hành**
+  - [Level 1](tutorials/level-1.md)
 
 - **:coffee: Templates**
   - [hoso-page](templates/hoso-page.md)
@@ -11,3 +13,4 @@
 - **:heart: Contact**
   - [**:heart: Email**](mailto:vunb@hosodientu.vn)
   - [**:heart: Telegram @VUER_ERM**](https://t.me/vuer_erm)
+  - [**:heart: Channel @HoSoDienTu**](https://t.me/hosodientu)
