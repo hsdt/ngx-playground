@@ -9,6 +9,7 @@
 - **:coffee: Templates**
   - [hoso-page](templates/hoso-page.md)
   - [hs-input-text](templates/hs-input-text.md)
+  - [hs-signature](templates/hs-signature.md)
 
 - **:heart: Contact**
   - [**:heart: Email**](mailto:vunb@hosodientu.vn)
