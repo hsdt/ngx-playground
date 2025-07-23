@@ -16,6 +16,7 @@
   - [hs-select-line](templates/hs-select-line.md)
   - [hs-input-otp](templates/hs-input-otp.md)
   - [hs-datepicker](templates/hs-datepicker.md)
+  - [hs-paint](templates/hs-paint.md)
   - [hs-icd-group](templates/hs-icd-group.md)
   - [hs-phong-giuong-picker](templates/hs-phong-giuong-picker.md)
   - [hs-signature](templates/hs-signature.md)
