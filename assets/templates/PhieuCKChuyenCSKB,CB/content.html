@@ -1,0 +1,168 @@
+<hoso-page>
+
+  <!-- Dòng tiêu đề quốc hiệu -->
+  <div style="font-family: 'Times New Roman'; font-size: 11pt; width: 100%; padding: 0 110px;">
+    <div style="display: flex; justify-content: space-between">
+
+      <!-- Cột trái -->
+      <div style="text-align: center;">
+        <div style="text-transform: uppercase; font-weight: normal; font-family: 'Times New Roman'; font-size: 11pt;">
+          SỞ Y TẾ THÀNH PHỐ ĐÀ NẴNG
+        </div>
+        <div style="
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-family: 'Times New Roman';
+                    font-size: 11pt;
+                    display: inline-block;
+                    border-bottom: 1px solid black;
+                    padding-bottom: 2px;
+                    ">
+          BỆNH VIỆN TÂM THẦN
+        </div>
+      </div>
+
+
+      <!-- Cột phải -->
+      <!-- CỘNG HÒA - ĐỘC LẬP căn giữa -->
+      <div style="text-align: center; font-family: 'Times New Roman'; font-size: 11pt;">
+        <div style="font-weight: bold;">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</div>
+        <div style="text-decoration: underline; font-weight: bold;">Độc lập - Tự do - Hạnh phúc</div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Tiêu đề biểu mẫu -->
+  <div class="row no-gutter row w-100 mt-4">
+    <div class="col-12 text-center">
+      <div class="font-weight-bold text-uppercase">
+        GIẤY CAM KẾT<br>
+        chuyển cơ sở khám bệnh, chữa bệnh
+      </div>
+    </div>
+  </div>
+
+  <div class="row no-gutter ">
+    <div class="col-9" style="margin-top: 20px;">
+      <!-- <div>
+                Kính gửi: ................................................................
+            </div> -->
+
+      <hs-textarea-line label="Kính gửi:" labelStyle="text-indent: 225px" [value]="context.KinhGui" update="KinhGui"
+        textareaStyle="font-weight: bold;">
+      </hs-textarea-line>
+
+    </div>
+  </div>
+
+  <div style="font-size: 13pt; font-family: 'Times New Roman'; line-height: 1.6; padding: 0 130px; margin-top: 2px;">
+
+    <div class="row no-gutters">
+      <div class="col-12">
+        <hs-textarea-line label="Tôi tên là:" textareaStyle="font-weight: bold;" [value]="context.HoTen"
+          update="HoTen"></hs-textarea-line>
+      </div>
+
+      <div class="col-12">
+        <hs-textarea-line label="Địa chỉ:" textareaStyle="font-weight: bold;" [value]="context.DiaChi"
+          update="DiaChi"></hs-textarea-line>
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-6">
+        <hs-textarea-line label="Ngày sinh:" textareaStyle="font-weight: bold;" [value]="" update=""></hs-textarea-line>
+      </div>
+
+      <div class="col-6">
+        <hs-textarea-line label="Số Căn cước/Hộ chiếu:" textareaStyle="font-weight: bold;" [value]="context.SoCCCD"
+          update="SoCCCD"></hs-textarea-line>
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-6">
+        <hs-input-check [selectedValue]="context.IsThanNhan" [value]="true" update="IsThanNhan" class="i-checks"
+          afterText=" Là người bệnh "></hs-input-check>
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-1">
+        <hs-input-check [selectedValue]="context.IsThanNhan" [value]="false" update="IsThanNhan" class="i-checks"
+          afterText="Là "></hs-input-check>
+      </div>
+
+      <div class="col-2">
+        <hs-textarea-line label="" [value]="context.QuanHe" update="QuanHe"></hs-textarea-line>
+      </div>
+
+      <div class="col-7">
+        <hs-textarea-line label="của người bệnh" [value]="context.HoTenBenhNhan"
+          update="HoTenBenhNhan"></hs-textarea-line>
+      </div>
+
+      <div class="col-2">
+        <hs-textarea-line label="Tuổi:" [value]="context.Tuoi" update="Tuoi"></hs-textarea-line>
+      </div>
+    </div>
+
+
+    <div class="row no-gutters">
+      <div class="col-12">
+        <hs-textarea-line label="Đang điều trị tại khoa:" [value]="context.TenKhoaKham"
+          update="TenKhoaKham"></hs-textarea-line>
+      </div>
+
+      <div class="col-12">
+        <hs-textarea-line label="Cơ sở KB, CB:" [value]="context.TenBenhVien" update="TenBenhVien"></hs-textarea-line>
+      </div>
+
+      <div class="col-12">
+        <hs-textarea-line label="Chẩn đoán:" [value]="context.ChanDoan" update="ChanDoan"></hs-textarea-line>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div style="font-size: 13pt; font-family: 'Times New Roman'; line-height: 1.6; padding: 0 90px; margin-top: 2px;">
+
+    <!-- <div class="row no-gutters">
+            <div class="col-12" style=" margin-top: 40px;">
+                <hs-textarea-line rows="2" label="Tôi đã được bác sỹ điều trị giải thích, tư vấn cụ thể về tình trạng bệnh của tôi/thân nhân của tôi và
+                những nguy cơ biến chứng, rủi ro có thể xảy ra trên đường vận chuyển, tôi đề nghị được chuyển đến"
+                    [value]="" update=""></hs-textarea-line> để
+                tiếp tục theo dõi, chăm sóc, điều trị cho tôi/thân nhân của tôi.
+            </div>
+        </div> -->
+
+    <div style="text-indent: 60px; ">
+      Tôi đã được bác sỹ điều trị giải thích, tư vấn cụ thể về tình trạng bệnh của tôi/thân nhân của tôi và những
+      nguy cơ biến chứng, rủi ro có thể xảy ra trên đường vận chuyển, tôi đề nghị được chuyển đến
+      <span style="display: inline-block; border-bottom: 1px dotted #000; width: 250px;">&nbsp;</span>
+      để tiếp tục theo dõi, chăm sóc, điều trị cho tôi/thân nhân của tôi.
+    </div>
+
+    <div style="text-indent: 60px; ">
+      Tôi cam kết trong quá trình chuyển đến cơ sở khám bệnh, chữa bệnh khác nếu có nguy cơ biến chứng, rủi ro có
+      thể xảy ra với tôi/thân nhân của tôi, chúng tôi xin chịu hoàn toàn trách nhiệm.
+    </div>
+
+    <div style="text-indent: 60px; ">
+      Tôi cam kết thực hiện các nghĩa vụ chi trả chi phí khám bệnh, chữa bệnh ngoài phạm vi được hưởng và mức
+      hưởng theo quy định của pháp luật về bảo hiểm y tế (nếu có).
+    </div>
+  </div>
+
+  <div
+    style="display: flex; justify-content: flex-end; padding: 0 100px; margin-top: 20px; font-family: 'Times New Roman'; font-size: 13pt;">
+    <div style="text-align: center;">
+      <div><i>Ngày........ tháng........ năm 20........</i></div>
+      <div style="font-weight: bold;">Người bệnh/thân nhân</div>
+      <div><i>(Ký, ghi rõ họ tên)</i></div>
+    </div>
+  </div>
+</hoso-page>
